@@ -15,7 +15,7 @@ import com.example.demo.kafkaMessageListener.KafkaMessageListener;
 import reactor.core.publisher.Flux;
 
 @RestController
-@RequestMapping("/events")
+@RequestMapping("/api/v1/events")
 public class KafkaEventController {
 
     @Autowired
